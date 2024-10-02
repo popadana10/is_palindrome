@@ -1,0 +1,7 @@
+is_palindrome.form:
+  path: '/checks-palindrome'
+  defaults:
+    _form: '\Drupal\is_palindrome\Form\IsNumberPalindromeForm'
+    _title: 'See Palindrome'
+  requirements:
+    _permission: 'access content'
